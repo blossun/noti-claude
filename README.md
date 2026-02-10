@@ -1,6 +1,11 @@
 # Noti Claude
 
-Claude Code 사용 시 응답 완료 및 권한 요청 시점에 알림음을 재생하는 프로젝트입니다.
+Claude Code 사용 시 응답 완료 및 권한 요청 시점에 알림음을 재생
+
+
+
+https://github.com/user-attachments/assets/af10e930-6ce4-477e-8056-4530a6dc56f9
+
 
 
 
