@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/af10e930-6ce4-477e-8056-4530a6dc56f9
 
 - `play_sound.py`: macOS의 `afplay` 명령어를 사용하여 알림음을 재생하는 스크립트
 - `ring.mp3`: 재생할 알림음 파일
-- 다른 알림음을 설정하고 싶다면 `ring1.mov`, `ring2.mp3`가 있으며, 직접 음성파일을 준비해서 변경 가능
+- 다른 알림음을 설정하고 싶다면 `ring1.mov`, `ring2.mp3`가 있으며, 직접 음성파일을 준비해서 변경 가능 (`play_sound.py` 파일에서 파일명 수정 필요)
 
 ## 사용법
 
@@ -51,7 +51,7 @@ Claude Code에서 이 알림 시스템을 사용하려면 `settings.json` 파일
 
 ### 설정 내용
 
-선택한 설정 파일에 다음 JSON을 추가하세요:
+선택한 설정 파일에 다음 JSON을 추가하세요:  
 **⚠️ 중요**: `hooks` 파일을 복사한 후, 파일 내의 `path/to/noti-claude` 부분을 실제 프로젝트 경로로 수정해야 합니다.
 
 
