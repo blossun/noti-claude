@@ -4,7 +4,10 @@ Claude Code 사용 시 응답 완료 및 권한 요청 시점에 알림음을 �
 
 
 
-https://github.com/user-attachments/assets/af10e930-6ce4-477e-8056-4530a6dc56f9
+
+https://github.com/user-attachments/assets/9331f6b2-a2c0-4246-b478-67479fe87096
+
+
 
 
 
