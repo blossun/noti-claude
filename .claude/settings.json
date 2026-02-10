@@ -1,0 +1,26 @@
+{
+"hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run ~/path/to/project/noti-claude/play_sound.py"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run ~/path/to/project/noti-claude/play_sound.py"
+          }
+        ]
+      }
+    ]
+  }
+}

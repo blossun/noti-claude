@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Claude hooks 제어 스크립트
+SETTINGS_FILE="$HOME/.claude/settings.json"
+
+if ! [ -f "$SETTINGS_FILE" ]; then
+    echo "❌ ~/.claude/settings.json 파일이 없습니다"
+    exit 1
+fi
+
+case "$1" in
+    "on")
+        sed -i '' 's|# hooks disabled|uv run path/to/noti-claude/play_sound.py|g' "$SETTINGS_FILE"
+        echo "🔊 Hooks 활성화됨"
+        ;;
+    "off")
+        sed -i '' 's|uv run path/to/noti-claude/play_sound.py|# hooks disabled|g' "$SETTINGS_FILE"
+        echo "🔇 Hooks 비활성화됨"
+        ;;
+    *)
+        echo "Usage: hooks [on|off]"
+        echo ""
+        echo "  hooks on   - Claude 알림음 활성화"
+        echo "  hooks off  - Claude 알림음 비활성화"
+        exit 1
+        ;;
+esac
